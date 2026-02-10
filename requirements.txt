@@ -1,0 +1,23 @@
+# Core OCR library
+easyocr==1.7.1
+
+# Required dependencies
+torch>=1.8.0
+torchvision>=0.9.0
+
+# Image handling
+Pillow>=9.0.0
+opencv-python>=4.5.0.0
+
+
+# core dependency; what i use to automate chrome
+selenium
+
+# For loading environment variables from a .env file
+python-dotenv>=1.0.0
+
+# OpenAI client
+openai>=1.0.0
+
+# Optional / local dev helpers (uncomment if you need them)
+# webdriver-manager>=4.0.0
