@@ -17,7 +17,7 @@ load_dotenv()
 user = os.getenv("MEMBEAN_USER")
 password = os.getenv("MEMBEAN_PASSWORD")
 if not user or not password:
-    raise RuntimeError("Missing MEMBEAN_USER or MEMBEAN_PASSWORD environment varihoables. Create a .env file or set them in your environment.")
+    raise RuntimeError("Missing MEMBEAN_USER or MEMBEAN_PASSWORD environment variables. Create a .env file or set them in your environment.")
 import answerQuestion as answer
 import ocrConstellations as ocr
 
